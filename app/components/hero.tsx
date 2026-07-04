@@ -5,7 +5,10 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen pt-20 lg:pt-0 flex items-center overflow-hidden bg-zinc-50 dark:bg-zinc-950">
+    <section
+      id="about"
+      className="min-h-screen pt-20 lg:pt-0 flex items-center overflow-hidden bg-zinc-50 dark:bg-zinc-950"
+    >
       <div className="absolute inset-0 bg-[radial-gradient(#e5e5e5_1px,transparent_1px)] dark:bg-[radial-gradient(#27272a_1px,transparent_1px)] bg-size-[50px_50px]" />
 
       <div className="container grid lg:grid-cols-2 gap-12 lg:gap-16 items-center z-10">
